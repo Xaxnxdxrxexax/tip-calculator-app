@@ -4,11 +4,11 @@ export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      screen: {
+      screens: {
         Fm: "376px",
       },
       fontFamily: {
-        sans: ["Space Mono", "sans-serif"],
+        sans: ["var(--font-space)"],
       },
       colors: {
         "Fm-Strong-cyan": "hsl(172, 67%, 45%)",
